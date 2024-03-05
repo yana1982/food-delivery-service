@@ -1,0 +1,502 @@
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+img {
+    display: block;
+}
+address {
+    font-style: normal;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+    background: #fff;
+
+}
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.main-btn {
+    min-width: 98px;
+    height: 32px;
+    border-radius: 30px;
+    background: #bbf330;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    }
+    /*=================Header===============*/
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+.navigation {
+    margin-right: 30px;
+}
+.nav-list {
+    display: flex;
+    gap: 28px;
+}
+.nav-link {
+    display: block;
+  padding: 28px 0;
+  }
+/*=================/Header===============*/
+
+
+/* ==================Hero section============= */
+.hero {
+ padding-top: 14px;
+padding-bottom: 69px;
+
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hero-wrapper{
+    max-width: 511px;
+}
+
+.hero-title {
+    font-weight: 700;
+font-size: 48px;
+line-height: 1.2;
+margin-bottom: 28px;
+}
+
+.hero-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 40px;
+
+}
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 291px;
+    width: 580px;
+    height: 580px;
+    border: 26px solid #ffe550 ;
+    border-radius: 50%;
+}
+/* ==================/Hero section============= */
+
+/* ==================Offerings section============= */
+
+
+.offering {
+padding-top: 167px;
+padding-bottom: 124px;
+background-color: #ffe550;
+}
+.offerings-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 841px;
+    padding-right: 51px;
+}
+.offerings-img-wrapper {
+    display: flex;
+    margin-right: 90px;
+}
+.offering-container-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 573px;
+   
+}
+.offering-title {
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: 1.2;
+    max-width: 526px;
+    
+}
+.offering-text {
+    max-width: 500px;
+    height: 72px;
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.offerings-list {
+    display: flex;
+    gap: 67px;
+    margin-bottom: 32px;
+
+}
+.offerings-item {
+
+}
+.offering-subtitle {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+.offering-subtext {
+    height: 84px;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+.offering-btn {
+    border: 2px solid #7eb101;
+    min-width: 106px;
+    height: 40px;
+    background-color: #fff;
+    color: #2c2c2c;
+}
+
+/* ==================/Offerings section============= */
+
+/* ==================Favorites section============= */
+.favorites {
+    padding-top: 120px;
+    padding-bottom: 101px;
+}
+
+
+.container {
+}
+.favorites-title {
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.favorites-text {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+    
+}
+.favorites-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - (32px * 2)) / 3);
+    height: 397px;
+    border-radius: 50%;
+    border: 16px solid #ffe550;
+}
+/* ==================/Favorites section============= */
+
+/* ==================Reviews section============= */
+
+.reviews {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background-color: #ffe550;
+}
+.container {
+}
+.reviews-title {
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+.reviews-text {
+    font-size: 16px;
+    padding-bottom: 32px;
+}
+.reviews-list {
+    display: flex;
+    gap: 139px;
+       
+}
+
+.reviews-list-item {
+    
+    
+}
+.reviews-list-item-text {
+    width: 473px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.reviews-list-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+   
+}
+.reviews-list-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.reviews-image {
+    
+
+}
+.images-wrapper {
+    display: flex;
+    gap: 16px;
+}
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+/* ==================/Reviews section============= */
+
+/* ==================Subscribe============= */
+.subscribe {
+    padding-top: 176px;
+    padding-bottom: 201px;
+}
+
+.container-subscribe-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-wrapper {
+}
+.subscribe-title {
+    padding-bottom: 20px;
+    font-size: 42px;
+line-height: 1.2;
+
+}
+.subscribe-text {
+    width: 532px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.subscribe-wrapper-img {
+}
+
+/* ==================/Subscribe section============= */
+
+/* ==================Footer============= */
+
+
+/* ==================/Footer============= */
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footer-container {
+    
+}
+.footer-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+
+}
+.logo-footer {
+   
+  }
+  .footer-logo-container {
+    display: flex;
+  }
+.footer-contact-wrapper {
+    display: flex;
+    
+}
+.footer-contact-list {
+    display: flex;
+     gap: 28px;
+   
+}
+.footer-contact-list-item {
+    font-size: 14px;
+}
+.footer-politics-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-politics-list {
+    display: flex;
+    gap: 20px;
+}
+.footer-politics-list-item {
+    font-size: 12px;
+text-decoration: underline;
+color: #7eb101;
+}
+.footer-subscribe-wrapper {
+}
+
+.footer-politics-text {
+    font-size: 12px;
+}
+
+
+
+
+/*
+.backdrop {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+     position:fixed ;
+     top: 0;
+     left: 0;
+    background: rgba(94, 99, 99, 0.7);
+}
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.modal {
+    
+    width: 458px;
+    height: 449px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    background: #ffe550;
+    padding: 32px;
+}
+.modal-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    line-height: 0;
+
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    background-color: #7eb101;
+    fill: #fff;
+}
+.modal-close-btn:hover > .modal-close-icon,
+.modal-close-btn:focus > .modal-close-icon {
+    fill: #fff;
+}
+
+
+.modal-close-icon {
+}
+.modal-title {
+    font-weight: 700;
+font-size: 24px;
+line-height: 1.2;
+color: #2c2c2c;
+text-align: center;
+margin-bottom: 20px;
+}
+.input-wrapper {
+    margin-bottom: 24px;
+}
+.modal-label {
+    display: block;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.4;
+margin-bottom: 2px;
+margin-left: 12px;
+}
+.input-wrapp {
+    margin-bottom: 32px;
+}
+.modal-input {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+color: #c4c4c4;
+border: 1px solid rgba(18, 18, 18, 0.12);
+border-radius: 30px;
+width: 394px;
+height: 48px;
+box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+background: #fff;
+padding-left: 12px;
+outline: transparent;
+}
+.modal-buttom {
+    display: block;
+    min-width: 106px;
+    height: 40px;
+    border: 2px solid #7eb101;
+border-radius: 30px;
+padding: 10px 20px;
+cursor: pointer;
+margin: 0 auto;
+background: #fff;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+}
+
+.input-wrapper {
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+}
+.check:checked + .input-check-text > .checkbox {
+    background-color: #7eb101;
+    border: none;
+    
+}
+.input-check-text {
+}
+.checkbox {
+    display: inline-flex;
+    width: 16px;
+height: 16px;
+border-radius: 4px;
+    border: 1px solid;
+
+}
+.checkbox-link {
+}*/
