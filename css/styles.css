@@ -58,6 +58,11 @@ body {
     display: block;
   padding: 28px 0;
   }
+  .nav-link-headr {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #bbf330;
+  }
 /*=================/Header===============*/
 
 
@@ -65,6 +70,7 @@ body {
 .hero {
  padding-top: 14px;
 padding-bottom: 69px;
+box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
 
 }
 .hero-container {
@@ -120,15 +126,35 @@ background-color: #ffe550;
 }
 .offerings-img-wrapper {
     display: flex;
+    justify-content: center;    
+    align-content: flex-start;
+    width: 502px;
+    height: 502px;
     margin-right: 90px;
-}
+    border-radius: 50%;
+background: #fefefe;
+position: relative;
+   }
+   
+   .img-apple {
+    position: absolute;
+    top: -78px;
+    box-shadow: 0px 0px 26px 1px rgb(47, 88, 63), rgb(105, 105, 105);
+  }
+
 .offering-container-wrapper {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     max-width: 573px;
-   
-}
+   }
+   .offerings-img-wrapper-border{
+    width: 550px;
+    height: 550px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 24px;
+   }
 .offering-title {
     margin-bottom: 20px;
     font-size: 42px;
@@ -148,6 +174,18 @@ background-color: #ffe550;
     gap: 67px;
     margin-bottom: 32px;
 
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fefefe;
+    fill: #7EB101;
 }
 .offerings-item {
 
@@ -170,6 +208,7 @@ background-color: #ffe550;
     background-color: #fff;
     color: #2c2c2c;
 }
+
 
 /* ==================/Offerings section============= */
 
@@ -234,9 +273,17 @@ background-color: #ffe550;
 }
 
 .reviews-list-item {
-    
-    
+    background: #fefefe;
+    border-radius: 0 30px 30px 30px;
+    width: 501px;
+    height: 231px;
+    padding-top: 59px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
+    
+
 .reviews-list-item-text {
     width: 473px;
     padding-bottom: 40px;
@@ -308,11 +355,23 @@ line-height: 1.2;
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    
-}
+    box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+    }
+    .footer-section {
+        background-image: url(../images/fruit.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1211px;
+        margin-left: auto;
+        margin-right: auto;
+           }
+
 .footer-container {
     
+   
 }
+
 .footer-container-wrapper {
     display: flex;
     justify-content: space-between;
@@ -321,7 +380,7 @@ line-height: 1.2;
 
 }
 .logo-footer {
-   
+   margin-right: 143px;
   }
   .footer-logo-container {
     display: flex;
@@ -342,19 +401,53 @@ line-height: 1.2;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 .footer-politics-list {
     display: flex;
     gap: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #7eb101;
+}
+.footer-link {
+    color: #7eb101;
 }
 .footer-politics-list-item {
     font-size: 12px;
-text-decoration: underline;
-color: #7eb101;
+   
 }
 .footer-subscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+.footer-form {
+    display: flex;
+    align-items: baseline;
+    gap: 13px;
 }
-
+.subscribe-form-input {
+    width: 279px;
+    height: 42px;
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.footer-subscribe-text {
+    font-size: 12px;
+}
+.footer-span {
+    text-decoration: underline;
+    color: #7eb101;
+}
 .footer-politics-text {
     font-size: 12px;
 }
