@@ -27,7 +27,7 @@
             <li><a class="nav-link" href="">Contact</a></li>
           </ul>
         </nav>
-        <button class="main-btn" type="button">Order Now</button>
+        <button class="main-btn main-list-btn" type="button">Order Now</button>
       </div>
       
     </header>
@@ -56,10 +56,21 @@
           <section class="offering">            
             <div class="container offerings-container">
               <div class="offerings-img-wrapper-border">
-              <div class="offerings-img-wrapper">  
-                              
-           <img class="img-apple" src="./images/aplle2.png" alt="apple" width="396" height="502" />
-          
+              <div class="offerings-img offerings-img-wrapper"> 
+              <svg width="502" height="502">
+                <use href="./images/icon.svg#icon-ellipse-1"></use>
+
+              </svg>
+              <div class="offerings-img offering-ellipse">
+                <svg width="252" height="87">
+                  <use href="./images/icon.svg#icon-ellipse-2"></use>
+                </svg>
+              </div>
+              <div class="offerings-img offering-apple">
+                <img class="img-apple" src="./images/aplle2.png" alt="apple" width="396" height="502" />
+              </div>
+                  
+               
           </div>
         </div>
        <div class="offering-container-wrapper">
@@ -71,7 +82,7 @@
         </p>
         <ul class="offerings-list">
           <li class="offerings-item">
-            <div class="icon">
+            <div class="icon icon-list">
             <svg width="32" height="32">
               <use href="./images/icon.svg#icon-rocket"></use>
             </svg>
@@ -218,7 +229,7 @@
           Food From Anywhere.
         </p>
         <form>
-          <input type="email" placeholder="Enter your email" /><button class="main-btn"
+          <input class="subscribe-email" type="email" placeholder="Enter your email" /><button class="main-btn subscribe-main-btn"
             type="submit"
           >
             Subscribe
@@ -258,7 +269,7 @@
           Subscribe
         </button>
       </form>
-                <p class="footer-subscribe-text">By subscribing you agree to with our<a href=""><span class="footer-span">Privacy Policy</span></a></p>
+                <p class="footer-subscribe-text">By subscribing you agree to with our<a href=""><span class="footer-span">&nbsp; Privacy Policy</span></a></p>
         </div>
       </div>
         <div class="footer-politics-wrapper"> 
