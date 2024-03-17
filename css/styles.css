@@ -40,7 +40,7 @@ body {
     } 
     /*=================Header===============*/
 .header .container {
-    display: flex;n
+    display: flex;
     align-items: center;
 }
 
@@ -58,6 +58,10 @@ body {
     display: block;
   padding: 28px 0;
   }
+.nav-link-list {
+font-size: 14px;
+color: #2c2c2c;
+}
   .nav-link-headr {
     font-weight: 700;
     text-decoration: underline;
@@ -417,6 +421,10 @@ margin-left: 32px;
 .logo-footer {
    margin-right: 143px;
    margin-left: 5px;
+  }
+  .footer-nav-contact {
+    font-size: 14px;
+    color: #2c2c2c;
   }
   .footer-logo-container {
     display: flex;
