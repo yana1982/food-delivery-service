@@ -175,6 +175,23 @@
         </p>
         <ul class="reviews-list">
           <li class="reviews-list-item">
+            <div class="reviews-list-item-star">
+              <svg class="icon-star" width="18" height="17">
+                <use  href="./images/icon.svg#icon-star"></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17">
+                <use href="./images/icon.svg#icon-star"></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17" >
+                <use href="./images/icon.svg#icon-star"></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17">
+                <use href="./images/icon.svg#icon-star" ></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17">
+                <use href="./images/icon.svg#icon-star"></use>
+              </svg>
+            </div>
             <p class="reviews-list-item-text">
               “The Best app I have used to order food in a while, so many
               options to choose from too, I would recommend to a freind, No
@@ -194,6 +211,23 @@
         </div>
           </li>
           <li class="reviews-list-item">
+            <div class="reviews-list-item-star">
+              <svg class="icon-star" width="18" height="17">
+                <use  href="./images/icon.svg#icon-star"></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17">
+                <use href="./images/icon.svg#icon-star"></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17" >
+                <use href="./images/icon.svg#icon-star"></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17">
+                <use href="./images/icon.svg#icon-star" ></use>
+              </svg>
+              <svg class="icon-star" width="18" height="17">
+                <use href="./images/icon.svg#icon-star"></use>
+              </svg>
+            </div>
             <p class="reviews-list-item-text">
               “The ease with which I can just go in and order what i want was
               amazing, It has been a very pleasant experience ordering from this
@@ -225,7 +259,7 @@
           Food From Anywhere.
         </p>
         <form>
-          <input class="subscribe-email" type="email" placeholder="Enter your email" /><button class="main-btn subscribe-main-btn"
+          <input class="subscribe-email" type="email" required placeholder="Enter your email"/><button class="main-btn subscribe-main-btn"
             type="submit"
           >
             Subscribe
@@ -259,7 +293,7 @@
       <div class="footer-subscribe-wrapper"> 
         <strong>Subscribe</strong>
       <form class="footer-form">
-        <input class="subscribe-form-input" type="email" placeholder="Enter your email" /><button class="main-btn offering-btn"
+        <input class="subscribe-form-input" type="email" placeholder="Enter your email" /><button class="main-btn offering-btn subscribe-btn"
           type="submit"
         >
           Subscribe
@@ -278,6 +312,37 @@
       <p class="footer-politics-text">2022 FoodSta. All right reserved.</p>
     </div>
     </div>
+    <!-------------Modal window styles------------>
+    <div class="bacdrop is-open">
+<div class="modal">
+  <button class="modal-close-btn" type="button">
+    <svg width="12" height="12">
+      <use href="./images/icon.svg#icon-vectorr"></use>
+    </svg>
+  </button>
+  <!-- =========Review form styles======= -->
+  <p class="modal-title">Order Form</p>
+  <form>
+    <div class="review-form">
+      <label class="review-form-field-label">Name
+        <input class="review-form-field-input" type="text" name="name" required placeholder="Your name">
+      </label>
+    </div>
+    <div class="review-form">
+      <label class="review-form-field-label">Phone number
+        <input class="review-form-field-input" type="tel" name="user-phone" required placeholder="+38(0_ _) _ _ _ _ _ _ _">
+        </label>
+    </div>
+    <div class="review-form">
+      <label class="review-form-field-label" type="email">E-mail
+        <input class="review-form-field-input" type="email" name="user-email" required placeholder="example@gmail.com">
+      </label>
+    </div>
+    <button class="review-form-btn" type="submit">Send</button>
+  </form>
+</div>
+    </div>
+    
     </footer>
   </body>
 </html>
